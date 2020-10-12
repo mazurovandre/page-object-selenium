@@ -1,1 +1,1 @@
-# page-object-selenium
+Задание Page Object для курса "Автоматизация тестирования с помощью Selenium и Python"
