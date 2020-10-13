@@ -7,3 +7,7 @@ class MainPageLocators():
 class LoginPageLocators():
     REGISTRATION_BUTTON = (By.NAME, "registration_submit")
     LOGIN_BUTTON = (By.NAME, "login_submit")
+
+class ProductPageLocators():
+    REGISTRATION_BUTTON = (By.NAME, "registration_submit")
+    LOGIN_BUTTON = (By.NAME, "login_submit")

@@ -2,7 +2,7 @@ from pages.locators import MainPageLocators
 from pages.main_page import MainPage
 from pages.login_page import LoginPage
 
-link = "http://selenium1py.pythonanywhere.com/"
+# link = "http://selenium1py.pythonanywhere.com/"
 
 def go_to_login_page(self):
    link = self.browser.find_element_by_css_selector("#login_link")
