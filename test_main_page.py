@@ -5,8 +5,10 @@ from pages.login_page import LoginPage
 link = "http://selenium1py.pythonanywhere.com/"
 
 def go_to_login_page(self):
-    link = self.browser.find_element(*MainPageLocators.LOGIN_LINK)
-    link.click()
+   link = self.browser.find_element_by_css_selector("#login_link")
+   link.click()
+   alert = self.browser.switch_to.alert
+   alert.accept()
 
 def test_guest_can_go_to_login_page(browser):
     link = "http://selenium1py.pythonanywhere.com"
